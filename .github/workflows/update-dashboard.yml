@@ -1,0 +1,36 @@
+name: Update Live Dashboard
+
+on:
+  schedule:
+    # Runs every day at 03:00 UTC
+    - cron: '0 3 * * *'
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+  push:
+    branches: [main]      # also refresh whenever you push to main
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build dashboard section
+        env:
+          GH_USERNAME: ka1rav6
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update_dashboard.js
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update live dashboard [skip ci]"
+          file_pattern: README.md
