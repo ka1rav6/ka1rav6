@@ -27,7 +27,7 @@ jobs:
         env:
           GH_USERNAME: ka1rav6
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/update_dashboard.js
+        run: node update_dashboard.js
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
