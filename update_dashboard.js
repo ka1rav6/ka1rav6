@@ -11,7 +11,7 @@ const path = require("path");
 
 const USERNAME = process.env.GH_USERNAME || "ka1rav6";
 const TOKEN = process.env.GH_TOKEN;
-const README_PATH = path.join(__dirname, "..", "README.md");
+const README_PATH = path.join(__dirname, "README.md");
 
 const START_MARKER = "<!--START_SECTION:dashboard-->";
 const END_MARKER = "<!--END_SECTION:dashboard-->";
