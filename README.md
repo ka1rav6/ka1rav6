@@ -62,7 +62,18 @@ struct {
 ### `$ cat progress.json`
 
 <!--START_SECTION:dashboard-->
-_auto-refreshed daily_
+**Last synced:** `2026-07-22 13:39 UTC`  ·  **Repos:** 31  ·  **Total stars:** 36
+
+| Project | Language | Stars | Last push | Status |
+|---|---|---|---|---|
+| [ka1rav6](https://github.com/ka1rav6/ka1rav6) | JavaScript | 0⭐ | 0d ago | 🟢 active |
+| [copa](https://github.com/ka1rav6/copa) | C++ | 1⭐ | 2d ago | 🟢 active |
+| [logx](https://github.com/ka1rav6/logx) | C++ | 4⭐ | 5d ago | 🟡 warm |
+| [ka1rav6.github.io](https://github.com/ka1rav6/ka1rav6.github.io) | HTML | 1⭐ | 11d ago | 🟡 warm |
+| [vela](https://github.com/ka1rav6/vela) | C | 1⭐ | 11d ago | 🟡 warm |
+| [zcore](https://github.com/ka1rav6/zcore) | Zig | 2⭐ | 13d ago | 🟡 warm |
+| [ctf-game](https://github.com/ka1rav6/ctf-game) | C++ | 1⭐ | 21d ago | ⚪ idle |
+| [lazycmake](https://github.com/ka1rav6/lazycmake) | C++ | 0⭐ | 21d ago | ⚪ idle |
 <!--END_SECTION:dashboard-->
 
 <div align="center">
