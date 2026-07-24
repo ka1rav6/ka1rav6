@@ -62,18 +62,18 @@ struct {
 ### `$ cat progress.json`
 
 <!--START_SECTION:dashboard-->
-**Last synced:** `2026-07-23 05:50 UTC`  ·  **Repos:** 32  ·  **Total stars:** 37
+**Last synced:** `2026-07-24 05:47 UTC`  ·  **Repos:** 33  ·  **Total stars:** 38
 
 | Project | Language | Stars | Last push | Status |
 |---|---|---|---|---|
-| [chess-engine](https://github.com/ka1rav6/chess-engine) | C | 1⭐ | 0d ago | 🟢 active |
+| [gmtk-26](https://github.com/ka1rav6/gmtk-26) | GDScript | 1⭐ | 0d ago | 🟢 active |
+| [lazycmake](https://github.com/ka1rav6/lazycmake) | Makefile | 0⭐ | 0d ago | 🟢 active |
 | [ka1rav6](https://github.com/ka1rav6/ka1rav6) | JavaScript | 0⭐ | 0d ago | 🟢 active |
-| [copa](https://github.com/ka1rav6/copa) | C++ | 1⭐ | 2d ago | 🟢 active |
-| [logx](https://github.com/ka1rav6/logx) | C++ | 4⭐ | 5d ago | 🟡 warm |
-| [ka1rav6.github.io](https://github.com/ka1rav6/ka1rav6.github.io) | HTML | 1⭐ | 11d ago | 🟡 warm |
-| [vela](https://github.com/ka1rav6/vela) | C | 1⭐ | 12d ago | 🟡 warm |
-| [zcore](https://github.com/ka1rav6/zcore) | Zig | 2⭐ | 13d ago | 🟡 warm |
-| [ctf-game](https://github.com/ka1rav6/ctf-game) | C++ | 1⭐ | 22d ago | ⚪ idle |
+| [chess-engine](https://github.com/ka1rav6/chess-engine) | C | 1⭐ | 1d ago | 🟢 active |
+| [copa](https://github.com/ka1rav6/copa) | C++ | 1⭐ | 3d ago | 🟢 active |
+| [logx](https://github.com/ka1rav6/logx) | C++ | 4⭐ | 6d ago | 🟡 warm |
+| [ka1rav6.github.io](https://github.com/ka1rav6/ka1rav6.github.io) | HTML | 1⭐ | 12d ago | 🟡 warm |
+| [vela](https://github.com/ka1rav6/vela) | C | 1⭐ | 13d ago | 🟡 warm |
 <!--END_SECTION:dashboard-->
 
 <div align="center">
