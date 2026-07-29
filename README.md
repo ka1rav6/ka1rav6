@@ -62,18 +62,18 @@ struct {
 ### `$ cat progress.json`
 
 <!--START_SECTION:dashboard-->
-**Last synced:** `2026-07-28 05:43 UTC`  ·  **Repos:** 34  ·  **Total stars:** 39
+**Last synced:** `2026-07-29 05:48 UTC`  ·  **Repos:** 34  ·  **Total stars:** 39
 
 | Project | Language | Stars | Last push | Status |
 |---|---|---|---|---|
-| [ka1rav6](https://github.com/ka1rav6/ka1rav6) | JavaScript | 0⭐ | 0d ago | 🟢 active |
-| [gmtk-26](https://github.com/ka1rav6/gmtk-26) | HTML | 1⭐ | 1d ago | 🟢 active |
-| [pico](https://github.com/ka1rav6/pico) | C | 1⭐ | 1d ago | 🟢 active |
-| [lazycmake](https://github.com/ka1rav6/lazycmake) | Makefile | 0⭐ | 4d ago | 🟡 warm |
-| [chess-engine](https://github.com/ka1rav6/chess-engine) | C | 1⭐ | 5d ago | 🟡 warm |
-| [copa](https://github.com/ka1rav6/copa) | C++ | 1⭐ | 7d ago | 🟡 warm |
-| [logx](https://github.com/ka1rav6/logx) | C++ | 4⭐ | 10d ago | 🟡 warm |
-| [ka1rav6.github.io](https://github.com/ka1rav6/ka1rav6.github.io) | HTML | 1⭐ | 16d ago | ⚪ idle |
+| [pico](https://github.com/ka1rav6/pico) | C | 1⭐ | 0d ago | 🟢 active |
+| [ka1rav6](https://github.com/ka1rav6/ka1rav6) | JavaScript | 0⭐ | 1d ago | 🟢 active |
+| [gmtk-26](https://github.com/ka1rav6/gmtk-26) | HTML | 1⭐ | 2d ago | 🟢 active |
+| [lazycmake](https://github.com/ka1rav6/lazycmake) | Makefile | 0⭐ | 5d ago | 🟡 warm |
+| [chess-engine](https://github.com/ka1rav6/chess-engine) | C | 1⭐ | 6d ago | 🟡 warm |
+| [copa](https://github.com/ka1rav6/copa) | C++ | 1⭐ | 8d ago | 🟡 warm |
+| [logx](https://github.com/ka1rav6/logx) | C++ | 4⭐ | 11d ago | 🟡 warm |
+| [ka1rav6.github.io](https://github.com/ka1rav6/ka1rav6.github.io) | HTML | 1⭐ | 17d ago | ⚪ idle |
 <!--END_SECTION:dashboard-->
 
 <div align="center">
