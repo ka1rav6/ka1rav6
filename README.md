@@ -62,18 +62,18 @@ struct {
 ### `$ cat progress.json`
 
 <!--START_SECTION:dashboard-->
-**Last synced:** `2026-08-09 04:15 UTC`  ·  **Repos:** 35  ·  **Total stars:** 39
+**Last synced:** `2026-08-10 04:26 UTC`  ·  **Repos:** 35  ·  **Total stars:** 39
 
 | Project | Language | Stars | Last push | Status |
 |---|---|---|---|---|
-| [pico](https://github.com/ka1rav6/pico) | C++ | 1⭐ | 0d ago | 🟢 active |
 | [ka1rav6](https://github.com/ka1rav6/ka1rav6) | JavaScript | 0⭐ | 1d ago | 🟢 active |
-| [bbs-iiitd-induction](https://github.com/ka1rav6/bbs-iiitd-induction) | Python | 0⭐ | 4d ago | 🟡 warm |
-| [gmtk-26](https://github.com/ka1rav6/gmtk-26) | HTML | 1⭐ | 13d ago | 🟡 warm |
-| [lazycmake](https://github.com/ka1rav6/lazycmake) | Makefile | 0⭐ | 16d ago | ⚪ idle |
-| [chess-engine](https://github.com/ka1rav6/chess-engine) | C | 1⭐ | 17d ago | ⚪ idle |
-| [copa](https://github.com/ka1rav6/copa) | C++ | 1⭐ | 19d ago | ⚪ idle |
-| [logx](https://github.com/ka1rav6/logx) | C++ | 4⭐ | 22d ago | ⚪ idle |
+| [pico](https://github.com/ka1rav6/pico) | C++ | 1⭐ | 1d ago | 🟢 active |
+| [bbs-iiitd-induction](https://github.com/ka1rav6/bbs-iiitd-induction) | Python | 0⭐ | 5d ago | 🟡 warm |
+| [gmtk-26](https://github.com/ka1rav6/gmtk-26) | HTML | 1⭐ | 14d ago | 🟡 warm |
+| [lazycmake](https://github.com/ka1rav6/lazycmake) | Makefile | 0⭐ | 17d ago | ⚪ idle |
+| [chess-engine](https://github.com/ka1rav6/chess-engine) | C | 1⭐ | 18d ago | ⚪ idle |
+| [copa](https://github.com/ka1rav6/copa) | C++ | 1⭐ | 20d ago | ⚪ idle |
+| [logx](https://github.com/ka1rav6/logx) | C++ | 4⭐ | 23d ago | ⚪ idle |
 <!--END_SECTION:dashboard-->
 
 <div align="center">
