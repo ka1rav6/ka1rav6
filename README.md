@@ -62,18 +62,18 @@ struct {
 ### `$ cat progress.json`
 
 <!--START_SECTION:dashboard-->
-**Last synced:** `2026-08-10 04:26 UTC`  ·  **Repos:** 35  ·  **Total stars:** 39
+**Last synced:** `2026-08-11 04:16 UTC`  ·  **Repos:** 35  ·  **Total stars:** 39
 
 | Project | Language | Stars | Last push | Status |
 |---|---|---|---|---|
-| [ka1rav6](https://github.com/ka1rav6/ka1rav6) | JavaScript | 0⭐ | 1d ago | 🟢 active |
-| [pico](https://github.com/ka1rav6/pico) | C++ | 1⭐ | 1d ago | 🟢 active |
-| [bbs-iiitd-induction](https://github.com/ka1rav6/bbs-iiitd-induction) | Python | 0⭐ | 5d ago | 🟡 warm |
-| [gmtk-26](https://github.com/ka1rav6/gmtk-26) | HTML | 1⭐ | 14d ago | 🟡 warm |
-| [lazycmake](https://github.com/ka1rav6/lazycmake) | Makefile | 0⭐ | 17d ago | ⚪ idle |
-| [chess-engine](https://github.com/ka1rav6/chess-engine) | C | 1⭐ | 18d ago | ⚪ idle |
-| [copa](https://github.com/ka1rav6/copa) | C++ | 1⭐ | 20d ago | ⚪ idle |
-| [logx](https://github.com/ka1rav6/logx) | C++ | 4⭐ | 23d ago | ⚪ idle |
+| [pico](https://github.com/ka1rav6/pico) | C++ | 1⭐ | 0d ago | 🟢 active |
+| [CP](https://github.com/ka1rav6/CP) | C | 1⭐ | 0d ago | 🟢 active |
+| [hand-gesture-recognition](https://github.com/ka1rav6/hand-gesture-recognition) | Python | 1⭐ | 0d ago | 🟢 active |
+| [ka1rav6](https://github.com/ka1rav6/ka1rav6) | JavaScript | 0⭐ | 0d ago | 🟢 active |
+| [bbs-iiitd-induction](https://github.com/ka1rav6/bbs-iiitd-induction) | Python | 0⭐ | 6d ago | 🟡 warm |
+| [gmtk-26](https://github.com/ka1rav6/gmtk-26) | HTML | 1⭐ | 15d ago | ⚪ idle |
+| [lazycmake](https://github.com/ka1rav6/lazycmake) | Makefile | 0⭐ | 18d ago | ⚪ idle |
+| [chess-engine](https://github.com/ka1rav6/chess-engine) | C | 1⭐ | 19d ago | ⚪ idle |
 <!--END_SECTION:dashboard-->
 
 <div align="center">
