@@ -62,18 +62,18 @@ struct {
 ### `$ cat progress.json`
 
 <!--START_SECTION:dashboard-->
-**Last synced:** `2026-08-26 03:50 UTC`  ·  **Repos:** 37  ·  **Total stars:** 39
+**Last synced:** `2026-08-27 13:41 UTC`  ·  **Repos:** 37  ·  **Total stars:** 39
 
 | Project | Language | Stars | Last push | Status |
 |---|---|---|---|---|
 | [ka1rav6](https://github.com/ka1rav6/ka1rav6) | JavaScript | 0⭐ | 1d ago | 🟢 active |
-| [githubworkshop](https://github.com/ka1rav6/githubworkshop) | Python | 0⭐ | 8d ago | 🟡 warm |
-| [byld-hackathon](https://github.com/ka1rav6/byld-hackathon) | — | 0⭐ | 8d ago | 🟡 warm |
-| [pico](https://github.com/ka1rav6/pico) | C++ | 1⭐ | 15d ago | ⚪ idle |
-| [CP](https://github.com/ka1rav6/CP) | C | 1⭐ | 15d ago | ⚪ idle |
-| [hand-gesture-recognition](https://github.com/ka1rav6/hand-gesture-recognition) | Python | 1⭐ | 15d ago | ⚪ idle |
-| [bbs-iiitd-induction](https://github.com/ka1rav6/bbs-iiitd-induction) | Python | 0⭐ | 21d ago | ⚪ idle |
-| [gmtk-26](https://github.com/ka1rav6/gmtk-26) | HTML | 1⭐ | 30d ago | ⚪ idle |
+| [githubworkshop](https://github.com/ka1rav6/githubworkshop) | Python | 0⭐ | 10d ago | 🟡 warm |
+| [byld-hackathon](https://github.com/ka1rav6/byld-hackathon) | — | 0⭐ | 10d ago | 🟡 warm |
+| [pico](https://github.com/ka1rav6/pico) | C++ | 1⭐ | 16d ago | ⚪ idle |
+| [CP](https://github.com/ka1rav6/CP) | C | 1⭐ | 16d ago | ⚪ idle |
+| [hand-gesture-recognition](https://github.com/ka1rav6/hand-gesture-recognition) | Python | 1⭐ | 17d ago | ⚪ idle |
+| [bbs-iiitd-induction](https://github.com/ka1rav6/bbs-iiitd-induction) | Python | 0⭐ | 22d ago | ⚪ idle |
+| [gmtk-26](https://github.com/ka1rav6/gmtk-26) | HTML | 1⭐ | 31d ago | ⚪ idle |
 <!--END_SECTION:dashboard-->
 
 <div align="center">
