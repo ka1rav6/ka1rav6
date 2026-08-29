@@ -62,18 +62,18 @@ struct {
 ### `$ cat progress.json`
 
 <!--START_SECTION:dashboard-->
-**Last synced:** `2026-08-28 14:51 UTC`  ·  **Repos:** 37  ·  **Total stars:** 39
+**Last synced:** `2026-08-29 09:41 UTC`  ·  **Repos:** 37  ·  **Total stars:** 39
 
 | Project | Language | Stars | Last push | Status |
 |---|---|---|---|---|
-| [ka1rav6](https://github.com/ka1rav6/ka1rav6) | JavaScript | 0⭐ | 1d ago | 🟢 active |
+| [ka1rav6](https://github.com/ka1rav6/ka1rav6) | JavaScript | 0⭐ | 0d ago | 🟢 active |
 | [githubworkshop](https://github.com/ka1rav6/githubworkshop) | Python | 0⭐ | 11d ago | 🟡 warm |
 | [byld-hackathon](https://github.com/ka1rav6/byld-hackathon) | — | 0⭐ | 11d ago | 🟡 warm |
-| [pico](https://github.com/ka1rav6/pico) | C++ | 1⭐ | 17d ago | ⚪ idle |
+| [pico](https://github.com/ka1rav6/pico) | C++ | 1⭐ | 18d ago | ⚪ idle |
 | [CP](https://github.com/ka1rav6/CP) | C | 1⭐ | 18d ago | ⚪ idle |
-| [hand-gesture-recognition](https://github.com/ka1rav6/hand-gesture-recognition) | Python | 1⭐ | 18d ago | ⚪ idle |
-| [bbs-iiitd-induction](https://github.com/ka1rav6/bbs-iiitd-induction) | Python | 0⭐ | 23d ago | ⚪ idle |
-| [gmtk-26](https://github.com/ka1rav6/gmtk-26) | HTML | 1⭐ | 32d ago | ⚪ idle |
+| [hand-gesture-recognition](https://github.com/ka1rav6/hand-gesture-recognition) | Python | 1⭐ | 19d ago | ⚪ idle |
+| [bbs-iiitd-induction](https://github.com/ka1rav6/bbs-iiitd-induction) | Python | 0⭐ | 24d ago | ⚪ idle |
+| [gmtk-26](https://github.com/ka1rav6/gmtk-26) | HTML | 1⭐ | 33d ago | ⚪ idle |
 <!--END_SECTION:dashboard-->
 
 <div align="center">
