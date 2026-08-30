@@ -1,10 +1,10 @@
-// scripts/update_dashboard.js
+// update_dashboard.js
 //
-// Fetches the user's repos from the GitHub API, builds a small
-// "live progress" markdown table, and injects it into README.md
-// between the START_SECTION / END_SECTION markers.
+// Fetches the public repos from the GitHub API, builds the "live" section of
+// the profile README (headline stats, language mix, most recently touched
+// projects) and injects it between the START_SECTION / END_SECTION markers.
 //
-// Runs with plain Node 20 (built-in fetch, no dependencies needed).
+// Runs on plain Node 20+ (built-in fetch, no dependencies).
 
 const fs = require("fs");
 const path = require("path");
@@ -15,6 +15,18 @@ const README_PATH = path.join(__dirname, "README.md");
 
 const START_MARKER = "<!--START_SECTION:dashboard-->";
 const END_MARKER = "<!--END_SECTION:dashboard-->";
+
+// Housekeeping repos — real, but not worth a slot in the showcase.
+const HIDDEN = new Set([
+  USERNAME,             // this repo
+  "githubworkshop",
+  "bbs-iiitd-induction",
+  "mom-projects",
+]);
+
+const RECENT_COUNT = 6;
+const LANG_COUNT = 6;
+const BAR_WIDTH = 22;
 
 async function fetchRepos() {
   const res = await fetch(
@@ -33,48 +45,91 @@ async function fetchRepos() {
 }
 
 function daysAgo(dateStr) {
-  const diffMs = Date.now() - new Date(dateStr).getTime();
-  return Math.floor(diffMs / (1000 * 60 * 60 * 24));
+  return Math.floor((Date.now() - new Date(dateStr).getTime()) / 86400000);
+}
+
+function ago(dateStr) {
+  const d = daysAgo(dateStr);
+  if (d === 0) return "today";
+  if (d === 1) return "yesterday";
+  if (d < 30) return `${d}d ago`;
+  return `${Math.floor(d / 30)}mo ago`;
 }
 
 function statusFor(repo) {
   const d = daysAgo(repo.pushed_at);
-  if (d <= 3) return "🟢 active";
-  if (d <= 14) return "🟡 warm";
-  return "⚪ idle";
+  if (d <= 3) return "`building`";
+  if (d <= 21) return "`warm`";
+  return "`resting`";
 }
 
-function buildTable(repos) {
-  const filtered = repos
-    .filter((r) => !r.fork && !r.archived)
+function languageBars(repos) {
+  const counts = new Map();
+  for (const r of repos) {
+    if (!r.language) continue;
+    counts.set(r.language, (counts.get(r.language) || 0) + 1);
+  }
+  const ranked = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, LANG_COUNT);
+  if (!ranked.length) return "";
+
+  const max = ranked[0][1];
+  const pad = Math.max(...ranked.map(([name]) => name.length));
+
+  return ranked
+    .map(([name, n]) => {
+      const filled = Math.max(1, Math.round((n / max) * BAR_WIDTH));
+      const bar = "█".repeat(filled) + "░".repeat(BAR_WIDTH - filled);
+      const label = n === 1 ? "1 repo" : `${n} repos`;
+      return `${name.padEnd(pad)}  ${bar}  ${label}`;
+    })
+    .join("\n");
+}
+
+function buildSection(repos) {
+  const own = repos.filter((r) => !r.fork && !r.archived);
+  // Only repos that can explain themselves get a row.
+  const showcase = own.filter((r) => !HIDDEN.has(r.name) && r.description);
+
+  const stars = own.reduce((sum, r) => sum + (r.stargazers_count || 0), 0);
+  const oldest = own.reduce(
+    (min, r) => (new Date(r.created_at) < new Date(min) ? r.created_at : min),
+    own[0]?.created_at || new Date().toISOString()
+  );
+  const since = new Date(oldest).toLocaleDateString("en-GB", {
+    month: "short",
+    year: "numeric",
+  });
+  const synced = new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
+
+  const rows = showcase
     .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
-    .slice(0, 8);
-
-  const totalStars = repos.reduce((sum, r) => sum + (r.stargazers_count || 0), 0);
-  const totalRepos = repos.filter((r) => !r.fork).length;
-
-  const rows = filtered
+    .slice(0, RECENT_COUNT)
     .map((r) => {
-      const name = `[${r.name}](${r.html_url})`;
-      const lang = r.language || "—";
-      const stars = r.stargazers_count ?? 0;
-      const updated = `${daysAgo(r.pushed_at)}d ago`;
-      return `| ${name} | ${lang} | ${stars}⭐ | ${updated} | ${statusFor(r)} |`;
+      const desc = (r.description || "").split(/(?<=\.)\s|—/)[0].trim().slice(0, 84);
+      return `| [\`${r.name}\`](${r.html_url}) | ${r.language || "—"} | ${desc || "—"} | ${ago(
+        r.pushed_at
+      )} | ${statusFor(r)} |`;
     })
     .join("\n");
 
-  const timestamp = new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
+  return `\`${own.length} public repos\` · \`${stars} stars\` · \`shipping since ${since}\` · \`synced ${synced}\`
 
-  return `**Last synced:** \`${timestamp}\`  ·  **Repos:** ${totalRepos}  ·  **Total stars:** ${totalStars}
+**most recently touched**
 
-| Project | Language | Stars | Last push | Status |
+| repo | lang | what | last push | state |
 |---|---|---|---|---|
-${rows}`;
+${rows}
+
+**where the time goes** <sub>(primary language, public repos)</sub>
+
+\`\`\`
+${languageBars(own)}
+\`\`\``;
 }
 
 async function main() {
   const repos = await fetchRepos();
-  const table = buildTable(repos);
+  const section = buildSection(repos);
 
   const readme = fs.readFileSync(README_PATH, "utf8");
   const startIdx = readme.indexOf(START_MARKER);
@@ -87,9 +142,7 @@ async function main() {
   const before = readme.slice(0, startIdx + START_MARKER.length);
   const after = readme.slice(endIdx);
 
-  const updated = `${before}\n${table}\n${after}`;
-  fs.writeFileSync(README_PATH, updated, "utf8");
-
+  fs.writeFileSync(README_PATH, `${before}\n${section}\n${after}`, "utf8");
   console.log("Dashboard section updated.");
 }
 
