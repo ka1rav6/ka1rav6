@@ -235,7 +235,7 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`38 public repos` · `40 stars` · `shipping since Feb 2026` · `synced 2026-08-30 07:34 UTC`
+`38 public repos` · `40 stars` · `shipping since Feb 2026` · `synced 2026-08-30 08:52 UTC`
 
 **most recently touched**
 
