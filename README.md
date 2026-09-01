@@ -32,9 +32,25 @@ warnings : 1 (grass_touching.service inactive)
 
 ## `$ whoami`
 
+<table>
+<tr>
+<td width="42%" valign="top">
+
+<!-- swap to assets/avatar-ascii.svg for the glyph version — see explain.md -->
+<img src="assets/avatar-blocks.svg" width="390" alt="Portrait of Kairav Dutta rendered as terminal art, decoding row by row" />
+
+</td>
+<td valign="top">
+
 I came in through competitive programming and stayed for everything sitting under it — allocators, bytecode, sockets, gap buffers, shader pipelines, build graphs. Most of what I build is a thing I could have installed, written badly on purpose first, so I'd know what the good version was actually doing.
 
 The other half of me just wants pixels on screen and a game loop that hits frame time.
+
+The portrait decodes itself on every page load — no JavaScript, because GitHub strips it. [It's an SVG](assets/avatar-blocks.svg) whose rows fade in on staggered CSS delays, [generated from my avatar](tools/ascii_avatar.py).
+
+</td>
+</tr>
+</table>
 
 > [!NOTE]
 > **Written instead of installed:** a build system, a rule engine, a tensor library,
