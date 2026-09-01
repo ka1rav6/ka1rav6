@@ -37,7 +37,7 @@ warnings : 1 (grass_touching.service inactive)
 <td width="42%" valign="top">
 
 <!-- swap to assets/avatar-ascii.svg for the glyph version — see explain.md -->
-<img src="assets/avatar-blocks.svg" width="390" alt="Portrait of Kairav Dutta rendered as terminal art, decoding row by row" />
+<img src="assets/avatar-ascii.svg" width="390" alt="Portrait of Kairav Dutta rendered as terminal art, decoding row by row" />
 
 </td>
 <td valign="top">
