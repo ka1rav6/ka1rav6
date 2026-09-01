@@ -251,7 +251,7 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`38 public repos` · `41 stars` · `shipping since Feb 2026` · `synced 2026-09-01 19:47 UTC`
+`38 public repos` · `41 stars` · `shipping since Feb 2026` · `synced 2026-09-01 19:51 UTC`
 
 **most recently touched**
 
@@ -267,12 +267,12 @@ The block below isn't a widget service — it's regenerated every morning by [an
 **where the time goes** <sub>(primary language, public repos)</sub>
 
 ```
-C++         ██████████████████████  10 repos
-Python      ██████████████████████  10 repos
-C           ███████░░░░░░░░░░░░░░░  3 repos
-TypeScript  ███████░░░░░░░░░░░░░░░  3 repos
-Makefile    ███████░░░░░░░░░░░░░░░  3 repos
-JavaScript  ████░░░░░░░░░░░░░░░░░░  2 repos
+Python      ██████████████████████  11 repos
+C++         ████████████████████░░  10 repos
+C           ██████░░░░░░░░░░░░░░░░  3 repos
+TypeScript  ██████░░░░░░░░░░░░░░░░  3 repos
+Makefile    ██████░░░░░░░░░░░░░░░░  3 repos
+HTML        ████░░░░░░░░░░░░░░░░░░  2 repos
 ```
 <!--END_SECTION:dashboard-->
 
