@@ -251,17 +251,17 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`38 public repos` · `41 stars` · `shipping since Feb 2026` · `synced 2026-09-01 19:51 UTC`
+`38 public repos` · `41 stars` · `shipping since Feb 2026` · `synced 2026-09-02 07:34 UTC`
 
 **most recently touched**
 
 | repo | lang | what | last push | state |
 |---|---|---|---|---|
-| [`CP`](https://github.com/ka1rav6/CP) | C | A mix of my solutions of Codeforces CP31 questions in different languages. | today | `building` |
+| [`CP`](https://github.com/ka1rav6/CP) | C | A mix of my solutions of Codeforces CP31 questions in different languages. | yesterday | `building` |
 | [`zero-dependency`](https://github.com/ka1rav6/zero-dependency) | C++ | Our submission for the zero dependency's hackathon | 2d ago | `building` |
-| [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | 2d ago | `building` |
-| [`pico`](https://github.com/ka1rav6/pico) | C++ | A whole build system for c++ projects. | 21d ago | `warm` |
-| [`hand-gesture-recognition`](https://github.com/ka1rav6/hand-gesture-recognition) | Python | Creating a Hand Gesture recognition AI model for a game | 22d ago | `resting` |
+| [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | 3d ago | `building` |
+| [`pico`](https://github.com/ka1rav6/pico) | C++ | A whole build system for c++ projects. | 22d ago | `resting` |
+| [`hand-gesture-recognition`](https://github.com/ka1rav6/hand-gesture-recognition) | Python | Creating a Hand Gesture recognition AI model for a game | 23d ago | `resting` |
 | [`chess-engine`](https://github.com/ka1rav6/chess-engine) | C | A chess engine in c made to help you play chess even on the terminal. | 1mo ago | `resting` |
 
 **where the time goes** <sub>(primary language, public repos)</sub>
