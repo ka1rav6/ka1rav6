@@ -251,16 +251,16 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`40 public repos` · `42 stars` · `shipping since Feb 2026` · `synced 2026-09-11 07:44 UTC`
+`40 public repos` · `42 stars` · `shipping since Feb 2026` · `synced 2026-09-12 07:39 UTC`
 
 **most recently touched**
 
 | repo | lang | what | last push | state |
 |---|---|---|---|---|
-| [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | today | `building` |
-| [`mlux`](https://github.com/ka1rav6/mlux) | Makefile | A fully customizable terminal multiplexer with the ability to save sessions and rest | today | `building` |
-| [`CP`](https://github.com/ka1rav6/CP) | C | A mix of my solutions of Codeforces CP31 questions in different languages. | 10d ago | `warm` |
-| [`zero-dependency`](https://github.com/ka1rav6/zero-dependency) | C++ | Our submission for the zero dependency's hackathon | 11d ago | `warm` |
+| [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | yesterday | `building` |
+| [`mlux`](https://github.com/ka1rav6/mlux) | Makefile | A fully customizable terminal multiplexer with the ability to save sessions and rest | yesterday | `building` |
+| [`CP`](https://github.com/ka1rav6/CP) | C | A mix of my solutions of Codeforces CP31 questions in different languages. | 11d ago | `warm` |
+| [`zero-dependency`](https://github.com/ka1rav6/zero-dependency) | C++ | Our submission for the zero dependency's hackathon | 12d ago | `warm` |
 | [`pico`](https://github.com/ka1rav6/pico) | C++ | A whole build system for c++ projects. | 1mo ago | `resting` |
 | [`hand-gesture-recognition`](https://github.com/ka1rav6/hand-gesture-recognition) | Python | Creating a Hand Gesture recognition AI model for a game | 1mo ago | `resting` |
 
