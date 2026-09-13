@@ -251,24 +251,24 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`40 public repos` · `42 stars` · `shipping since Feb 2026` · `synced 2026-09-12 07:39 UTC`
+`41 public repos` · `43 stars` · `shipping since Feb 2026` · `synced 2026-09-13 07:57 UTC`
 
 **most recently touched**
 
 | repo | lang | what | last push | state |
 |---|---|---|---|---|
-| [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | yesterday | `building` |
-| [`mlux`](https://github.com/ka1rav6/mlux) | Makefile | A fully customizable terminal multiplexer with the ability to save sessions and rest | yesterday | `building` |
-| [`CP`](https://github.com/ka1rav6/CP) | C | A mix of my solutions of Codeforces CP31 questions in different languages. | 11d ago | `warm` |
-| [`zero-dependency`](https://github.com/ka1rav6/zero-dependency) | C++ | Our submission for the zero dependency's hackathon | 12d ago | `warm` |
+| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | today | `building` |
+| [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | 2d ago | `building` |
+| [`mlux`](https://github.com/ka1rav6/mlux) | Makefile | A fully customizable terminal multiplexer with the ability to save sessions and rest | 2d ago | `building` |
+| [`CP`](https://github.com/ka1rav6/CP) | C | A mix of my solutions of Codeforces CP31 questions in different languages. | 12d ago | `warm` |
+| [`zero-dependency`](https://github.com/ka1rav6/zero-dependency) | C++ | Our submission for the zero dependency's hackathon | 13d ago | `warm` |
 | [`pico`](https://github.com/ka1rav6/pico) | C++ | A whole build system for c++ projects. | 1mo ago | `resting` |
-| [`hand-gesture-recognition`](https://github.com/ka1rav6/hand-gesture-recognition) | Python | Creating a Hand Gesture recognition AI model for a game | 1mo ago | `resting` |
 
 **where the time goes** <sub>(primary language, public repos)</sub>
 
 ```
+C++         ██████████████████████  11 repos
 Python      ██████████████████████  11 repos
-C++         ████████████████████░░  10 repos
 TypeScript  ██████░░░░░░░░░░░░░░░░  3 repos
 Makefile    ██████░░░░░░░░░░░░░░░░  3 repos
 C           ██████░░░░░░░░░░░░░░░░  3 repos
