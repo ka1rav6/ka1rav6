@@ -251,24 +251,24 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`41 public repos` · `43 stars` · `shipping since Feb 2026` · `synced 2026-09-20 08:14 UTC`
+`41 public repos` · `43 stars` · `shipping since Feb 2026` · `synced 2026-09-21 08:32 UTC`
 
 **most recently touched**
 
 | repo | lang | what | last push | state |
 |---|---|---|---|---|
-| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | 2d ago | `building` |
-| [`mlux`](https://github.com/ka1rav6/mlux) | Makefile | A fully customizable terminal multiplexer with the ability to save sessions and rest | 2d ago | `building` |
-| [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | 9d ago | `warm` |
-| [`CP`](https://github.com/ka1rav6/CP) | C | A mix of my solutions of Codeforces CP31 questions in different languages. | 19d ago | `warm` |
-| [`zero-dependency`](https://github.com/ka1rav6/zero-dependency) | C++ | Our submission for the zero dependency's hackathon | 20d ago | `warm` |
+| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | today | `building` |
+| [`mlux`](https://github.com/ka1rav6/mlux) | Makefile | A fully customizable terminal multiplexer with the ability to save sessions and rest | 3d ago | `building` |
+| [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | 10d ago | `warm` |
+| [`CP`](https://github.com/ka1rav6/CP) | C | A mix of my solutions of Codeforces CP31 questions in different languages. | 20d ago | `warm` |
+| [`zero-dependency`](https://github.com/ka1rav6/zero-dependency) | C++ | Our submission for the zero dependency's hackathon | 21d ago | `warm` |
 | [`pico`](https://github.com/ka1rav6/pico) | C++ | A whole build system for c++ projects. | 1mo ago | `resting` |
 
 **where the time goes** <sub>(primary language, public repos)</sub>
 
 ```
-Python      ██████████████████████  11 repos
 C++         ██████████████████████  11 repos
+Python      ██████████████████████  11 repos
 Makefile    ██████░░░░░░░░░░░░░░░░  3 repos
 TypeScript  ██████░░░░░░░░░░░░░░░░  3 repos
 C           ██████░░░░░░░░░░░░░░░░  3 repos
