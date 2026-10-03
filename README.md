@@ -251,16 +251,16 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`42 public repos` · `45 stars` · `shipping since Feb 2026` · `synced 2026-10-02 09:18 UTC`
+`42 public repos` · `45 stars` · `shipping since Feb 2026` · `synced 2026-10-03 08:49 UTC`
 
 **most recently touched**
 
 | repo | lang | what | last push | state |
 |---|---|---|---|---|
-| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | yesterday | `building` |
-| [`logx`](https://github.com/ka1rav6/logx) | Assembly | One file. | yesterday | `building` |
-| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | 7d ago | `warm` |
-| [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | 21d ago | `warm` |
+| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | 2d ago | `building` |
+| [`logx`](https://github.com/ka1rav6/logx) | Assembly | One file. | 2d ago | `building` |
+| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | 8d ago | `warm` |
+| [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | 22d ago | `resting` |
 | [`CP`](https://github.com/ka1rav6/CP) | C | A mix of my solutions of Codeforces CP31 questions in different languages. | 1mo ago | `resting` |
 | [`zero-dependency`](https://github.com/ka1rav6/zero-dependency) | C++ | Our submission for the zero dependency's hackathon | 1mo ago | `resting` |
 
