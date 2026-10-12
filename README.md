@@ -251,28 +251,28 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`42 public repos` · `46 stars` · `shipping since Feb 2026` · `synced 2026-10-11 09:37 UTC`
+`43 public repos` · `47 stars` · `shipping since Feb 2026` · `synced 2026-10-12 10:09 UTC`
 
 **most recently touched**
 
 | repo | lang | what | last push | state |
 |---|---|---|---|---|
-| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | today | `building` |
-| [`logx`](https://github.com/ka1rav6/logx) | Assembly | One file. | today | `building` |
-| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | yesterday | `building` |
+| [`friday`](https://github.com/ka1rav6/friday) | Rust | Submission for the nvidia nebius hackathon | today | `building` |
+| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | yesterday | `building` |
+| [`logx`](https://github.com/ka1rav6/logx) | Assembly | One file. | yesterday | `building` |
+| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | 2d ago | `building` |
 | [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | 1mo ago | `resting` |
 | [`CP`](https://github.com/ka1rav6/CP) | C | A mix of my solutions of Codeforces CP31 questions in different languages. | 1mo ago | `resting` |
-| [`zero-dependency`](https://github.com/ka1rav6/zero-dependency) | C++ | Our submission for the zero dependency's hackathon | 1mo ago | `resting` |
 
 **where the time goes** <sub>(primary language, public repos)</sub>
 
 ```
-C++         ██████████████████████  11 repos
 Python      ██████████████████████  11 repos
+C++         ██████████████████████  11 repos
 TypeScript  ████████░░░░░░░░░░░░░░  4 repos
 C           ██████░░░░░░░░░░░░░░░░  3 repos
+Rust        ████░░░░░░░░░░░░░░░░░░  2 repos
 HTML        ████░░░░░░░░░░░░░░░░░░  2 repos
-Java        ████░░░░░░░░░░░░░░░░░░  2 repos
 ```
 <!--END_SECTION:dashboard-->
 
