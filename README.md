@@ -251,17 +251,17 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`44 public repos` · `47 stars` · `shipping since Feb 2026` · `synced 2026-10-23 08:13 UTC`
+`44 public repos` · `47 stars` · `shipping since Feb 2026` · `synced 2026-10-24 07:51 UTC`
 
 **most recently touched**
 
 | repo | lang | what | last push | state |
 |---|---|---|---|---|
-| [`frew`](https://github.com/ka1rav6/frew) | C++ | This is here to teach you about creating an ML engine from scratch (for educational  | 3d ago | `building` |
-| [`friday`](https://github.com/ka1rav6/friday) | Rust | Submission for the nvidia nebius hackathon | 10d ago | `warm` |
-| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | 12d ago | `warm` |
-| [`logx`](https://github.com/ka1rav6/logx) | Assembly | One file. | 12d ago | `warm` |
-| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | 13d ago | `warm` |
+| [`frew`](https://github.com/ka1rav6/frew) | C++ | This is here to teach you about creating an ML engine from scratch (for educational  | 4d ago | `warm` |
+| [`friday`](https://github.com/ka1rav6/friday) | Rust | Submission for the nvidia nebius hackathon | 11d ago | `warm` |
+| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | 13d ago | `warm` |
+| [`logx`](https://github.com/ka1rav6/logx) | Assembly | One file. | 13d ago | `warm` |
+| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | 14d ago | `warm` |
 | [`ka1rav6.github.io`](https://github.com/ka1rav6/ka1rav6.github.io) | TypeScript | Making a website that contains my portfolio | 1mo ago | `resting` |
 
 **where the time goes** <sub>(primary language, public repos)</sub>
