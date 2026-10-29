@@ -251,26 +251,26 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`45 public repos` · `49 stars` · `shipping since Feb 2026` · `synced 2026-10-28 09:16 UTC`
+`46 public repos` · `49 stars` · `shipping since Feb 2026` · `synced 2026-10-29 09:16 UTC`
 
 **most recently touched**
 
 | repo | lang | what | last push | state |
 |---|---|---|---|---|
-| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | yesterday | `building` |
-| [`endemica`](https://github.com/ka1rav6/endemica) | Python | Our submission for the hackIIITD hackathon - Team Prometheus | 3d ago | `building` |
-| [`frew`](https://github.com/ka1rav6/frew) | C++ | This is here to teach you about creating an ML engine from scratch (for educational  | 8d ago | `warm` |
-| [`friday`](https://github.com/ka1rav6/friday) | Rust | Submission for the nvidia nebius hackathon | 15d ago | `warm` |
-| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | 17d ago | `warm` |
-| [`logx`](https://github.com/ka1rav6/logx) | Assembly | One file. | 17d ago | `warm` |
+| [`lemon`](https://github.com/ka1rav6/lemon) | C | A modern systems programming language that is meant to keep the simple C/C++ syntax  | today | `building` |
+| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | 2d ago | `building` |
+| [`endemica`](https://github.com/ka1rav6/endemica) | Python | Our submission for the hackIIITD hackathon - Team Prometheus | 4d ago | `warm` |
+| [`frew`](https://github.com/ka1rav6/frew) | C++ | This is here to teach you about creating an ML engine from scratch (for educational  | 9d ago | `warm` |
+| [`friday`](https://github.com/ka1rav6/friday) | Rust | Submission for the nvidia nebius hackathon | 16d ago | `warm` |
+| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | 18d ago | `warm` |
 
 **where the time goes** <sub>(primary language, public repos)</sub>
 
 ```
 Python      ██████████████████████  12 repos
 C++         ██████████████████████  12 repos
+C           ███████░░░░░░░░░░░░░░░  4 repos
 TypeScript  ███████░░░░░░░░░░░░░░░  4 repos
-C           ██████░░░░░░░░░░░░░░░░  3 repos
 Rust        ████░░░░░░░░░░░░░░░░░░  2 repos
 HTML        ████░░░░░░░░░░░░░░░░░░  2 repos
 ```
