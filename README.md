@@ -251,18 +251,18 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`46 public repos` · `49 stars` · `shipping since Feb 2026` · `synced 2026-11-08 09:49 UTC`
+`46 public repos` · `49 stars` · `shipping since Feb 2026` · `synced 2026-11-09 10:51 UTC`
 
 **most recently touched**
 
 | repo | lang | what | last push | state |
 |---|---|---|---|---|
-| [`lemon`](https://github.com/ka1rav6/lemon) | C | A modern systems programming language that is meant to keep the simple C/C++ syntax  | today | `building` |
-| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | 12d ago | `warm` |
-| [`endemica`](https://github.com/ka1rav6/endemica) | Python | Our submission for the hackIIITD hackathon - Team Prometheus | 14d ago | `warm` |
-| [`frew`](https://github.com/ka1rav6/frew) | C++ | This is here to teach you about creating an ML engine from scratch (for educational  | 19d ago | `warm` |
-| [`friday`](https://github.com/ka1rav6/friday) | Rust | Submission for the nvidia nebius hackathon | 26d ago | `resting` |
-| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | 28d ago | `resting` |
+| [`lemon`](https://github.com/ka1rav6/lemon) | C | A modern systems programming language that is meant to keep the simple C/C++ syntax  | yesterday | `building` |
+| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | 13d ago | `warm` |
+| [`endemica`](https://github.com/ka1rav6/endemica) | Python | Our submission for the hackIIITD hackathon - Team Prometheus | 15d ago | `warm` |
+| [`frew`](https://github.com/ka1rav6/frew) | C++ | This is here to teach you about creating an ML engine from scratch (for educational  | 20d ago | `warm` |
+| [`friday`](https://github.com/ka1rav6/friday) | Rust | Submission for the nvidia nebius hackathon | 27d ago | `resting` |
+| [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | 29d ago | `resting` |
 
 **where the time goes** <sub>(primary language, public repos)</sub>
 
