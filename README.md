@@ -251,16 +251,16 @@ Not a list of everything I've touched — what I actually reach for, and when.
 The block below isn't a widget service — it's regenerated every morning by [an Action in this repo](.github/workflows/update-dashboard.yml): the GitHub API, ~150 lines of Node, [and no dependencies](update_dashboard.js).
 
 <!--START_SECTION:dashboard-->
-`46 public repos` · `49 stars` · `shipping since Feb 2026` · `synced 2026-11-13 10:28 UTC`
+`46 public repos` · `49 stars` · `shipping since Feb 2026` · `synced 2026-11-14 09:46 UTC`
 
 **most recently touched**
 
 | repo | lang | what | last push | state |
 |---|---|---|---|---|
-| [`lemon`](https://github.com/ka1rav6/lemon) | C | A modern systems programming language that is meant to keep the simple C/C++ syntax  | 5d ago | `warm` |
-| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | 17d ago | `warm` |
-| [`endemica`](https://github.com/ka1rav6/endemica) | Python | Our submission for the hackIIITD hackathon - Team Prometheus | 19d ago | `warm` |
-| [`frew`](https://github.com/ka1rav6/frew) | C++ | This is here to teach you about creating an ML engine from scratch (for educational  | 24d ago | `resting` |
+| [`lemon`](https://github.com/ka1rav6/lemon) | C | A modern systems programming language that is meant to keep the simple C/C++ syntax  | 6d ago | `warm` |
+| [`mlux`](https://github.com/ka1rav6/mlux) | C++ | A fully customizable terminal multiplexer with the ability to save sessions and rest | 18d ago | `warm` |
+| [`endemica`](https://github.com/ka1rav6/endemica) | Python | Our submission for the hackIIITD hackathon - Team Prometheus | 20d ago | `warm` |
+| [`frew`](https://github.com/ka1rav6/frew) | C++ | This is here to teach you about creating an ML engine from scratch (for educational  | 25d ago | `resting` |
 | [`friday`](https://github.com/ka1rav6/friday) | Rust | Submission for the nvidia nebius hackathon | 1mo ago | `resting` |
 | [`SAT-satellite-tracker`](https://github.com/ka1rav6/SAT-satellite-tracker) | C++ | A satellite tracking simulation for SIH-2026 | 1mo ago | `resting` |
 
